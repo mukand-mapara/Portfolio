@@ -34,10 +34,18 @@ export default function Portfolio() {
               <p>{singleProject.description}</p>
 
               <div className="singleProjectBtnDiv d-flex justify-content-center">
-                <button className="singleProjectBtn">
-                  <a href={`${singleProject.link}`} target="_blank">
-                    visit website
-                  </a>
+               <button className="singleProjectBtn">
+                  {singleProject.link ? (
+                    <a
+                      href={singleProject.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visit Website
+                    </a>
+                  ) : (
+                    <span>Issue with the link</span>
+                  )}
                 </button>
               </div>
             </motion.div>
