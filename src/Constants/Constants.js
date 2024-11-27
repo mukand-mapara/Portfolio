@@ -191,7 +191,7 @@ const portfolio = [
     title: "E-commerce-web",
     description:
       "This e-commerce website is a highly functional and visually appealing platform designed to deliver a seamless and engaging shopping experience.  user-first approach, it combines outstanding performance, elegant aesthetics, and intuitive usability to cater to diverse customer needs.",
-    link: "https://e-commerce-web-lemon.vercel.app/",
+    // link: "https://e-commerce-web-lemon.vercel.app/",
   },
   {
     images: [
@@ -206,7 +206,7 @@ const portfolio = [
     title: "Expense Management System",
     description:
       "A React and Redux-based web app for tracking and managing expenses. It offers features like adding, editing, and deleting expenses with categorized views, ensuring a seamless and responsive user experience.",
-    // link: "https://react-dentist-website.vercel.app/",
+    // link: "https://expense-management-delta.vercel.app/",
   },
   // {
   //   images: [
@@ -226,7 +226,7 @@ const portfolio = [
     title: "React Demo Web-Page",
     description:
       "This React demo website showcases a modern and clean interface with a focus on responsive design and intuitive user experience. It includes a fully responsive layout that adapts seamlessly to various screen sizes, ensuring a consistent appearance on desktops, tablets, and mobile devices.",
-    link: "https://react-demo-website-2fv7zoksm-mukand-1303s-projects.vercel.app/",
+    // link: "https://react-demo-website-2fv7zoksm-mukand-1303s-projects.vercel.app/",
   },
   {
     images: [
@@ -239,7 +239,7 @@ const portfolio = [
     title: "Restaurant Hub",
     description:
       "Restaurant Hub is a visually captivating platform designed to connect food lovers with their favorite dining spots effortlessly. This project combines functionality and aesthetics to create an intuitive experience for users exploring restaurant menus, reviews, and reservations.",
-    link: "https://restaurant-website-eight-iota.vercel.app/",
+    // link: "https://restaurant-website-eight-iota.vercel.app/",
   },
 ];
 
