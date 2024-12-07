@@ -6,7 +6,6 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
-// update logo
 import { RiTailwindCssFill } from "react-icons/ri";
 
 import { RiReactjsLine } from "react-icons/ri";
