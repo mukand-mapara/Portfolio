@@ -40,7 +40,7 @@ export default function HomeDiv() {
             <span>
               <TypeAnimation
                 sequence={[
-                  "freelancer",
+                  "React Enthusiast",
                   2000,
                   "Frontend Developer",
                   2000,
