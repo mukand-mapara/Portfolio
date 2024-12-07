@@ -42,9 +42,9 @@ export default function Contact() {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <div className="getInTouchDiv">
-          <h6>Get in Touch</h6>
-          <h2>Talk or Meet with Me</h2>
+         <div className="getInTouchDiv">
+          <h6>Contact Me</h6>
+          <h2>Let's Collaborate and Create</h2>
         </div>
 
         <div
