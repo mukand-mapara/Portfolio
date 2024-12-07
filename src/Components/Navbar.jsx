@@ -33,9 +33,10 @@ export default function Navbar() {
         <>
             <nav className={`navbar navbar-expand-lg sticky-top ${scrolled && 'bg-scroll'} ${darkTheme && "darkTheme"}`}>
                 <div className="container-fluid px-5">
-                    {/* <a className="navbar-brand" href="/">
-                        <img src={navbarLogo} alt="" />
-                    </a> */}
+                    <div className="logo">
+            <span className="letter m">M</span>
+            <span className="letter k">K</span>
+          </div>
                     <button className="navbarToggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="togglerIcon">
                             <FaBars className='toggler' />
