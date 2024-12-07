@@ -885,6 +885,47 @@ body {
   color: #0db3c7;
 }
 
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 2rem; 
+  font-weight: bold;
+  cursor: pointer;
+  color: #00d4ff; 
+  padding: 0px 20px;
+  border-radius: 10px; 
+  text-shadow: 2px 2px 4px rgba(0, 212, 255, 0.3); 
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.letter {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo .m {
+  transform: translateY(-5px); 
+}
+
+.logo .k {
+  transform: translateY(5px); 
+}
+
+.logo:hover .m {
+  transform: translateY(-5px) rotate(-18deg); /* Rotate and move up on hover */
+}
+
+.logo:hover .k {
+  transform: translateY(5px) rotate(18deg); /* Rotate and move down on hover */
+}
+
+
+
+
 /* end darkTheme settings */
 
 @media (max-width: 991px) {
