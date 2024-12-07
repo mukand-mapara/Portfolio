@@ -6,7 +6,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
-import { RiReactjsLine } from "react-icons/ri";
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 
 // cv
@@ -64,7 +64,7 @@ import digiskillsLogo from "../assets/digiskillsLogo.png";
 import navbarImg from "../assets/navbarLogo.jpeg";
 
 const skillsSubTitle =
-  "Crazy full stack developer who wants to explore every tech stack";
+  "Creative React JS developer crafting seamless and dynamic user interfaces";
 
 // name
 const name = "Mukand Kirshna";
@@ -81,6 +81,10 @@ const skillsIcons = [
   {
     icon: <FaCss3Alt />,
     title: "css3",
+  },
+  {
+    icon: <RiTailwindCssFill />,
+    title: "TailwindCss",
   },
   {
     icon: <FaBootstrap />,
