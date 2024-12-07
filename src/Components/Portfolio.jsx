@@ -33,7 +33,7 @@ export default function Portfolio() {
 
               <p>{singleProject.description}</p>
 
-              <div className="singleProjectBtnDiv d-flex justify-content-center">
+{/*               <div className="singleProjectBtnDiv d-flex justify-content-center">
                <button className="singleProjectBtn">
                   {singleProject.link ? (
                     <a
@@ -47,7 +47,7 @@ export default function Portfolio() {
                     <span>Issue with the link</span>
                   )}
                 </button>
-              </div>
+              </div> */}
             </motion.div>
           );
         })}
