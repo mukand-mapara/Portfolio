@@ -6,7 +6,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
-import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 
 // cv
@@ -85,10 +85,6 @@ const skillsIcons = [
   {
     icon: <FaBootstrap />,
     title: "Bootstrap",
-  },
-  {
-    icon: <RiTailwindCssFill />,
-    title: "TailwindCss",
   },
   {
     icon: <IoLogoJavascript />,
