@@ -14,7 +14,7 @@ export default function Portfolio() {
         transition={{ duration: 1 }}
       >
         <h5 className="portfolioTitle">portfolio</h5>
-        <h2 className="portfolioTitle">Some of my latest works.</h2>
+        <h2 className="portfolioTitle">Some of my works.</h2>
       </motion.div>
 
       <div className="portfolioProjects row justify-content-center gap-5">
